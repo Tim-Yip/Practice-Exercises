@@ -1,0 +1,9 @@
+cost = float(input("enter the cost of the meal: "))
+tip = cost * 0.2
+tax = cost * 0.0825
+total = cost + tip + tax
+print('Meal Cost Breakdown')
+print(f'{"Meal Cost:":<15}${cost:>8.2f}')
+print(f'{"Tip (20%):":<15}${tip:>8.2f}')
+print(f'{"Tax (8.25%):":<15}${tax:>8.2f}')
+print(f'{"Total Cost:":<15}${total:>8.2f}')

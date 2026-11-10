@@ -1,0 +1,11 @@
+item1 = 25.75
+item2 = 45.67
+item3 = 45.75
+item4 = 55.67
+item5 = 45.60
+subtotal = item1 + item2 + item3 + item4 + item5
+tax = subtotal * 0.07
+total = subtotal + tax
+print("Subtotal =", f"{subtotal:.2f}")
+print("Tax =", f"{tax:.2f}")
+print("Total =", f"{total:.2f}")

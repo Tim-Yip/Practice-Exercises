@@ -1,0 +1,4 @@
+c = 30
+f = (9/5) * c + 32
+print("30 degrees Celsius is equivalent to",\
+    f"{f:.2f}", "degrees Fahrenheit.")
